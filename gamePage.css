@@ -1,0 +1,27 @@
+#bf_game {
+    max-width: 1000px;
+    width: 100%;
+    max-height: 562px;
+    height: 100%;
+    background: #fff;
+    border-radius: 2px 2px;
+    user-select: none;
+    position: absolute;
+    left: 50%;
+    top: 1rem;
+    transform: translate3d(-50%,0,0);
+    box-shadow:0 0 20px -5px rgb(0 0 0 / 50%);
+}
+
+#frame {
+    position: relative;
+    width: 65%;
+    height: 65%;
+    margin: auto;
+    top: 50%;
+    border: 10px solid #eee;
+    box-shadow: 10px 10px 50px grey;
+    box-sizing: content-box;
+    border-image: linear-gradient(to right,black,gray,black) 20%;
+    transform: translate3d(0,-50%,0);
+}
